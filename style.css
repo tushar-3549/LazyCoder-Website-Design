@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    box-shadow: 2px 0px 3px 0px;
+    color: rgb(30, 35, 35);
+    /* margin: -13px 0px 0px 0px; */
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo span {
+    color: red;
+}
+
+/* .container {
+    margin-top: 25px;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+}
+
+.container img {
+    height: 550px;
+    background-attachment: fixed;
+    filter: blur(5px);
+} */
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    position: relative;
+}
+
+.carousel-item .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    /* background: hsl(0 0% 0% / .8); */
+    position: absolute;
+    inset: 0;
+    /* top:0;
+  right:0;
+  bottom:0;
+  left:0; */
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-item img {
+    width: 0;
+    height: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h2 {
+    margin-top: 25px;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+@media only screen and (max-width:767px) {
+    .carousel-caption h2 {
+        font-size: 22px;
+
+    }
+
+    .carousel-caption a {
+        padding: 5px 7px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.6;
+    }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .carousel-caption p {
+        width: 100%;
+    }
+}
+
+.about-img img {
+    width: 610px;
+    height: 350px;
+}
+
+.about-txt h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#service .card-body i {
+    font-size: 50px;
+}
+
+.card-body {
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-container {
+    width: 80%;
+    margin: auto;
+}
